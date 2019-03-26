@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1547805427 source:/home/yury/Dropbox/Github/SegmentKDTree/SegmentKDTree/main.cpp
+	<iostream>
+	<mlpack/core.hpp>
+	"PointSegmentDistance.h"
+	<stdio.h>
+	<stdlib.h>
+	<mlpack/core/tree/binary_space_tree/typedef.hpp>
+
+1547729873 /home/yury/Dropbox/Github/SegmentKDTree/SegmentKDTree/include/distances/PointSegmentDistance.h
+	<mlpack/core.hpp>
+

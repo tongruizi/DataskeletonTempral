@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DataSkeletonization" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/KernelDensityEstimation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="2 2" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-fopenmp" />
+					<Add directory="include/DensityFunctions" />
+					<Add directory="include" />
+					<Add directory="include/TestClasses" />
+					<Add directory="include/Rules" />
+					<Add directory="include/Convertors" />
+					<Add directory="include/Methods" />
+					<Add directory="include/Amst" />
+					<Add directory="include/GeneralComputation" />
+					<Add directory="include/DataGeneration" />
+					<Add directory="include/Graph" />
+					<Add directory="include/Definitions" />
+					<Add directory="include/Clustering" />
+					<Add directory="./" />
+					<Add directory="include/GradientDescend" />
+					<Add directory="include/Amst/EpsilonClusterMST" />
+					<Add directory="include/OldSchoolAlgorithms/AlphaReeb" />
+					<Add directory="include/OldSchoolAlgorithms/Mapper" />
+					<Add directory="include/OldSchoolAlgorithms" />
+					<Add directory="include/TestModule" />
+					<Add directory="include/TestModule/Measurers" />
+					<Add directory="include/TestModule/Statistics" />
+					<Add directory="include/TestModule/CloudTypes" />
+					<Add directory="include/TestModule/PostRunners" />
+					<Add directory="include/Methods/AsK" />
+					<Add directory="include/GeneralComputation/SegmentTools" />
+					<Add directory="include/TestModule/Extra" />
+					<Add directory="include/Methods/Amst" />
+					<Add directory="include/CycleDetectionTools" />
+					<Add directory="include/HopsTest" />
+					<Add directory="include/HopsTest/GudhiSettings" />
+					<Add directory="include/Methods/MorseReconstruction" />
+					<Add directory="include/Methods/MorseReconstruction/spt_cpp" />
+					<Add directory="include/Methods/MorseReconstruction/spt_cpp/phat/include" />
+				</Compiler>
+				<Linker>
+					<Add library="boost_system" />
+					<Add library="boost_serialization" />
+					<Add library="armadillo" />
+					<Add library="mlpack" />
+					<Add library="CGAL" />
+					<Add library="gmp" />
+					<Add library="libboost_filesystem" />
+					<Add library="gomp" />
+					<Add directory="include/DensityFunctions" />
+					<Add directory="../../../Downloads/2018-09-04-14-25-00_GUDHI_2.3.0/include" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/KernelDensityEstimation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/DensityFunctions" />
+					<Add directory="include/TestClasses" />
+					<Add directory="include/Rules" />
+					<Add directory="include/Convertors" />
+					<Add directory="include/Methods" />
+					<Add directory="include/Amst" />
+					<Add directory="include/GeneralComputation" />
+					<Add directory="./" />
+					<Add directory="include/GradientDescend" />
+					<Add directory="include/Amst/EpsilonClusterMST" />
+					<Add directory="include" />
+					<Add directory="include/OldSchoolAlgorithms" />
+					<Add directory="include/TestModule" />
+					<Add directory="include/TestModule/Measurers" />
+					<Add directory="include/TestModule/CloudTypes" />
+					<Add directory="include/TestModule/Statistics" />
+					<Add directory="include/TestModule/PostRunners" />
+					<Add directory="include/Methods/AsK" />
+					<Add directory="include/GeneralComputation/SegmentTools" />
+					<Add directory="include/TestModule/Extra" />
+					<Add directory="include/Methods/Amst" />
+					<Add directory="include/HopsTest/GudhiSettings" />
+					<Add directory="include/HopsTest" />
+					<Add directory="include/Methods/MorseReconstruction" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Amst/AmstStat.h" />
+		<Unit filename="include/Amst/DualTreeAMST.h" />
+		<Unit filename="include/Amst/EpsilonClusterMST/EngineClusterMST.h" />
+		<Unit filename="include/Amst/EpsilonClusterMST/EpsilonClusteringRules.h" />
+		<Unit filename="include/Amst/RulesAMST.h" />
+		<Unit filename="include/Amst/RulesRAMSTM.h" />
+		<Unit filename="include/Amst/RulesRangeAMST.h" />
+		<Unit filename="include/Clustering/ClusterElement.cpp" />
+		<Unit filename="include/Clustering/ClusterElement.h" />
+		<Unit filename="include/Clustering/ClusterSort.cpp" />
+		<Unit filename="include/Clustering/ClusterSort.h" />
+		<Unit filename="include/Clustering/ClusteringMethods.cpp" />
+		<Unit filename="include/Clustering/ClusteringMethods.h" />
+		<Unit filename="include/Clustering/DescriptorCluster.cpp" />
+		<Unit filename="include/Clustering/DescriptorCluster.h" />
+		<Unit filename="include/Convertors/ComplicatedConvertor.h" />
+		<Unit filename="include/Convertors/GeneralConvertor.cpp" />
+		<Unit filename="include/Convertors/GeneralConvertor.h" />
+		<Unit filename="include/CycleDetectionTools/CleverSkeletonization.h" />
+		<Unit filename="include/DataGeneration/CloudGenerator.cpp" />
+		<Unit filename="include/DataGeneration/CloudGenerator.h" />
+		<Unit filename="include/DataGeneration/GraphGeneration.cpp" />
+		<Unit filename="include/DataGeneration/GraphGeneration.h" />
+		<Unit filename="include/Definitions/Definitions.h" />
+		<Unit filename="include/DensityFunctions/CleverExpDensity.h" />
+		<Unit filename="include/DensityFunctions/ExponentialDensity.cpp" />
+		<Unit filename="include/DensityFunctions/ExponentialDensity.h" />
+		<Unit filename="include/DensityFunctions/LinearDensity.cpp" />
+		<Unit filename="include/DensityFunctions/LinearDensity.h" />
+		<Unit filename="include/GeneralComputation/Computation.cpp" />
+		<Unit filename="include/GeneralComputation/Computation.h" />
+		<Unit filename="include/GeneralComputation/DualTreeComputation.cpp" />
+		<Unit filename="include/GeneralComputation/DualTreeComputation.h" />
+		<Unit filename="include/GeneralComputation/PointTools.cpp" />
+		<Unit filename="include/GeneralComputation/PointTools.h" />
+		<Unit filename="include/GeneralComputation/SegmentTools/SegmentDistance.h" />
+		<Unit filename="include/GradientDescend/GradientDescendTester.h" />
+		<Unit filename="include/GradientDescend/SingleEdgeOptimizer.cpp" />
+		<Unit filename="include/GradientDescend/SingleEdgeOptimizer.h" />
+		<Unit filename="include/Graph/Graph.cpp" />
+		<Unit filename="include/Graph/Graph.h" />
+		<Unit filename="include/Methods/AMSTComputator.h" />
+		<Unit filename="include/Methods/Amst/AmstLauncher.h" />
+		<Unit filename="include/Methods/AmstAlgorithm.h" />
+		<Unit filename="include/Methods/AsK/AsKLauncher.cpp" />
+		<Unit filename="include/Methods/AsK/AsKLauncher.h" />
+		<Unit filename="include/Methods/AsK/BranchSimplification.cpp" />
+		<Unit filename="include/Methods/AsK/BranchSimplification.h" />
+		<Unit filename="include/Methods/AsK/CorrectStraightening.h" />
+		<Unit filename="include/Methods/AsK/FastMSTLauncher.cpp" />
+		<Unit filename="include/Methods/AsK/FastMSTLauncher.h" />
+		<Unit filename="include/Methods/AsK/GraphSimplification.cpp" />
+		<Unit filename="include/Methods/AsK/GraphSimplification.h" />
+		<Unit filename="include/Methods/AsK/SegmentCompare.h" />
+		<Unit filename="include/Methods/AsK/StraighteningMethods.cpp" />
+		<Unit filename="include/Methods/AsK/StraighteningMethods.h" />
+		<Unit filename="include/Methods/AsK/SuperSort.h" />
+		<Unit filename="include/Methods/BranchDetection.cpp" />
+		<Unit filename="include/Methods/BranchDetection.h" />
+		<Unit filename="include/Methods/MorseReconstruction/DiMoSCLauncher.h" />
+		<Unit filename="include/Methods/MorseReconstruction/MorseLauncher.h" />
+		<Unit filename="include/Methods/MorseReconstruction/MorseReconstructionComputator.h" />
+		<Unit filename="include/Methods/MorseReconstruction/ToSptTransformer.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/DiscreteVField.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/Simplex.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/Simplicial2Complex.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/graph_spt.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/graph_spt_list.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/persistence.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/algorithms/chunk_reduction.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/algorithms/row_reduction.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/algorithms/spectral_sequence_reduction.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/algorithms/standard_reduction.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/algorithms/twist_reduction.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/boundary_matrix.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/compute_persistence_pairs.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/helpers/dualize.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/helpers/misc.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/helpers/thread_local_storage.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/persistence_pairs.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/abstract_pivot_column.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/bit_tree_pivot_column.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/full_pivot_column.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/heap_pivot_column.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/sparse_pivot_column.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/vector_heap.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/vector_list.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/vector_set.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/phat/include/phat/representations/vector_vector.h" />
+		<Unit filename="include/Methods/MorseReconstruction/spt_cpp/spt.h" />
+		<Unit filename="include/Methods/NaiveMethods.cpp" />
+		<Unit filename="include/Methods/NaiveMethods.h" />
+		<Unit filename="include/Methods/TestPerformer.h" />
+		<Unit filename="include/Methods/TreeCreator.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/AlphaReebComputation.cpp" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/AlphaReebComputation.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/AlphaReeb_Parameters.cpp" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/AlphaReeb_Parameters.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Cluster.cpp" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Cluster.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Combine_Comps.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Connect_Clusters.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Data_Pt.cpp" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Data_Pt.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Dijkstra.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Generate_AlphaReeb_Graph.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Generate_Subclouds.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Generate_Subgraphs.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Geometric_Centre_Of_Cloud.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/GraphUpgrade.cpp" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/GraphUpgrade.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Group_Subgraphs.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Recover_Components.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb/Split_Into_Conn_Comps.h" />
+		<Unit filename="include/OldSchoolAlgorithms/AlphaReeb_Launcher.h" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper/CMapperGenerator.h" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper/ComponentAllocator.h" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper/Distance_Filter.h" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper/Gauss_Density_Filter.h" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper/Generate_Subclouds.h" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper/Mapper.h" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper/Mapper_Parameters.cpp" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper/Mapper_Parameters.h" />
+		<Unit filename="include/OldSchoolAlgorithms/Mapper_Launcher.h" />
+		<Unit filename="include/Rules/DensityComputator.h" />
+		<Unit filename="include/Rules/DensityEstimationRules.h" />
+		<Unit filename="include/Rules/KDEStats.h" />
+		<Unit filename="include/TestClasses/FunctionEvaluator.h" />
+		<Unit filename="include/TestClasses/TreeExperements.h" />
+		<Unit filename="include/TestModule/AbstractAlgorithm.h" />
+		<Unit filename="include/TestModule/AbstractCloudType.h" />
+		<Unit filename="include/TestModule/AbstractMeasurer.h" />
+		<Unit filename="include/TestModule/CloudTypes/DoubleStar.cpp" />
+		<Unit filename="include/TestModule/CloudTypes/DoubleStar.h" />
+		<Unit filename="include/TestModule/CloudTypes/RealCloudCollection.cpp" />
+		<Unit filename="include/TestModule/CloudTypes/RealCloudCollection.h" />
+		<Unit filename="include/TestModule/CloudTypes/SingleStar.cpp" />
+		<Unit filename="include/TestModule/CloudTypes/SingleStar.h" />
+		<Unit filename="include/TestModule/ExplicitMeasurer.h" />
+		<Unit filename="include/TestModule/Extra/CloudTypePrinterAlgorithm.h" />
+		<Unit filename="include/TestModule/Extra/DumbAlgorithm.h" />
+		<Unit filename="include/TestModule/Measurers/ClassicDistanceMeasure.cpp" />
+		<Unit filename="include/TestModule/Measurers/ClassicDistanceMeasure.h" />
+		<Unit filename="include/TestModule/Measurers/CorrectEndTypeMeasure.cpp" />
+		<Unit filename="include/TestModule/Measurers/CorrectEndTypeMeasure.h" />
+		<Unit filename="include/TestModule/Measurers/CorrectTypeMeasure.cpp" />
+		<Unit filename="include/TestModule/Measurers/CorrectTypeMeasure.h" />
+		<Unit filename="include/TestModule/Measurers/DualTreeDistanceMeasure.cpp" />
+		<Unit filename="include/TestModule/Measurers/DualTreeDistanceMeasure.h" />
+		<Unit filename="include/TestModule/Measurers/ManualMeasure.h" />
+		<Unit filename="include/TestModule/Measurers/MeanSquareDistanceMeasure.cpp" />
+		<Unit filename="include/TestModule/Measurers/MeanSquareDistanceMeasure.h" />
+		<Unit filename="include/TestModule/Measurers/NumberOfVertexMeasure.cpp" />
+		<Unit filename="include/TestModule/Measurers/NumberOfVertexMeasure.h" />
+		<Unit filename="include/TestModule/Measurers/TimerCountMeasure.h" />
+		<Unit filename="include/TestModule/MetricGraphRec/MetricRec.cpp" />
+		<Unit filename="include/TestModule/MetricGraphRec/MetricRec.hpp" />
+		<Unit filename="include/TestModule/PostRunners/PostRunInterface.h" />
+		<Unit filename="include/TestModule/PostRunners/PrintToFile.h" />
+		<Unit filename="include/TestModule/PostRunners/SophisticatedPrinter.h" />
+		<Unit filename="include/TestModule/SimpleMeasurerCore.h" />
+		<Unit filename="include/TestModule/Statistics/SimpleStatistic.h" />
+		<Unit filename="include/TestModule/Statistics/StatisticInfo.h" />
+		<Unit filename="include/TestModule/controller.cpp" />
+		<Unit filename="include/TestModule/controller.h" />
+		<Unit filename="include/TestModule/generatable.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

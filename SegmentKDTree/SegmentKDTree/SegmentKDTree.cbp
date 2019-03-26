@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SegmentKDTree" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SegmentKDTree" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include/distances" />
+					<Add directory="include/core" />
+					<Add directory="include/tools" />
+				</Compiler>
+				<Linker>
+					<Add library="boost_serialization" />
+					<Add library="armadillo" />
+					<Add library="mlpack" />
+					<Add library="CGAL" />
+					<Add library="boost_system" />
+					<Add library="gmp" />
+					<Add library="libboost_filesystem" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SegmentKDTree" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/distances" />
+					<Add directory="include/core" />
+					<Add directory="include/tools" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/core/binary_space_segment_tree.hpp" />
+		<Unit filename="include/core/binary_space_segment_tree_impl.hpp" />
+		<Unit filename="include/core/dual_segment_tree_traverser.hpp" />
+		<Unit filename="include/core/dual_segment_tree_traverser_impl.hpp" />
+		<Unit filename="include/core/midpoint_segment_split.hpp" />
+		<Unit filename="include/core/midpoint_segment_split_extension.h" />
+		<Unit filename="include/core/midpoint_segment_split_impl.hpp" />
+		<Unit filename="include/core/perform_segment_split.hpp" />
+		<Unit filename="include/core/segmenttree_traits.hpp" />
+		<Unit filename="include/distances/PointSegmentDistance.h" />
+		<Unit filename="include/tools/PointExtractor.h" />
+		<Unit filename="include/tools/SegmentSplitter.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

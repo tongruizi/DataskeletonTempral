@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Micelle" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/ReadWrite/;src/Logic/ClassicalMethods/;src/Logic/;include/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Micelle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="3 20.0 1.75" />
+				<Compiler>
+					<Add option="-std=c++1y" />
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="/home/yury/Downloads/2018-01-31-09-25-53_GUDHI_2.1.0/include/" />
+					<Add directory="/usr/include/boost" />
+					<Add directory="include/Logic/CustomComplex" />
+					<Add directory="include/Logic/ClassicalMethods" />
+					<Add directory="/home/yury/Dropbox/MicelleProject/Micelle/include/Logic/InterfaceHandles/" />
+					<Add directory="include/Logic/InterfaceHandles" />
+					<Add directory="include/Logic/AlphaReeb" />
+					<Add directory="src/Logic/AlphaReeb" />
+					<Add directory="../../../Downloads/Gudhi/2018-06-14-13-32-49_GUDHI_2.2.0/include" />
+					<Add directory="include/Logic/Mapper" />
+					<Add directory="include/Logic/Clustering" />
+				</Compiler>
+				<Linker>
+					<Add library="CGAL" />
+					<Add library="gmp" />
+					<Add library="boost_system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Micelle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="3" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/Logic/CustomComplex" />
+					<Add directory="include/Logic/ClassicalMethods" />
+					<Add directory="include/Logic/InterfaceHandles" />
+					<Add directory="include/Logic/Clustering" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/AABBMethods.h" />
+		<Unit filename="include/AbstractComplex.h" />
+		<Unit filename="include/BranchDetection.h" />
+		<Unit filename="include/CellInfo.h" />
+		<Unit filename="include/CloudGenerator.h" />
+		<Unit filename="include/Computation.h" />
+		<Unit filename="include/Definitions.h" />
+		<Unit filename="include/Filereader.h" />
+		<Unit filename="include/FlexibleComplex.h" />
+		<Unit filename="include/Graph.h" />
+		<Unit filename="include/GraphGeneration.h" />
+		<Unit filename="include/HashComplex.h" />
+		<Unit filename="include/HomologyComputator.h" />
+		<Unit filename="include/Logic/AlphaReeb/AlphaReebComputation.h" />
+		<Unit filename="include/Logic/AlphaReeb/AlphaReeb_Parameters.h" />
+		<Unit filename="include/Logic/AlphaReeb/Combine_Comps.h" />
+		<Unit filename="include/Logic/AlphaReeb/Data_Pt.h" />
+		<Unit filename="include/Logic/AlphaReeb/Dijkstra.h" />
+		<Unit filename="include/Logic/AlphaReeb/Generate_AlphaReeb_Graph.h" />
+		<Unit filename="include/Logic/AlphaReeb/GraphUpgrade.h" />
+		<Unit filename="include/Logic/AlphaReeb/Recover_Components.h" />
+		<Unit filename="include/Logic/AlphaReeb/Split_Into_Conn_Comps.h" />
+		<Unit filename="include/Logic/ClassicalMethods/BranchSimplification.h" />
+		<Unit filename="include/Logic/ClassicalMethods/GraphSimplification.h" />
+		<Unit filename="include/Logic/ClassicalMethods/StraighteningMethods.h" />
+		<Unit filename="include/Logic/Clustering/ClusterElement.h" />
+		<Unit filename="include/Logic/Clustering/ClusterSort.h" />
+		<Unit filename="include/Logic/Clustering/ClusteringMethods.h" />
+		<Unit filename="include/Logic/Clustering/DescriptorCluster.h" />
+		<Unit filename="include/Logic/CustomComplex/ComplexAlgorithms.h" />
+		<Unit filename="include/Logic/CustomComplex/EqualsComplex.h" />
+		<Unit filename="include/Logic/CustomComplex/HashForSimplex.h" />
+		<Unit filename="include/Logic/InterfaceHandles/ClassicUIHandle.h" />
+		<Unit filename="include/Logic/InterfaceHandles/TestHandle.h">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="include/Logic/Mapper/CMapperGenerator.h" />
+		<Unit filename="include/Logic/Mapper/ComponentAllocator.h" />
+		<Unit filename="include/Logic/Mapper/Distance_Filter.h" />
+		<Unit filename="include/Logic/Mapper/Gauss_Density_Filter.h" />
+		<Unit filename="include/Logic/Mapper/Generate_Subclouds.h" />
+		<Unit filename="include/Logic/Mapper/Mapper.h" />
+		<Unit filename="include/Logic/Mapper/Mapper_Parameters.h" />
+		<Unit filename="include/PointInfo.h" />
+		<Unit filename="include/PointTools.h" />
+		<Unit filename="include/SimplexComparator.h" />
+		<Unit filename="include/SimplexDefinitions.h" />
+		<Unit filename="include/SimplexHash.h" />
+		<Unit filename="include/SimplexSort.h" />
+		<Unit filename="include/UIHandler.h" />
+		<Unit filename="include/Write.h" />
+		<Unit filename="include/binomial_coeff_table.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Logic/AlphaMethods/AbstractComplex.cpp" />
+		<Unit filename="src/Logic/AlphaMethods/FlexibleComplex.cpp" />
+		<Unit filename="src/Logic/AlphaMethods/SimplexComparator.cpp" />
+		<Unit filename="src/Logic/AlphaMethods/SimplexHash.cpp" />
+		<Unit filename="src/Logic/AlphaMethods/SimplexSort.cpp" />
+		<Unit filename="src/Logic/AlphaReeb/AlphaReebComputation.cpp" />
+		<Unit filename="src/Logic/AlphaReeb/AlphaReeb_Parameters.cpp" />
+		<Unit filename="src/Logic/AlphaReeb/Cluster.cpp" />
+		<Unit filename="src/Logic/AlphaReeb/Data_Pt.cpp" />
+		<Unit filename="src/Logic/AlphaReeb/GraphUpgrade.cpp" />
+		<Unit filename="src/Logic/BranchDetection.cpp" />
+		<Unit filename="src/Logic/ClassicalMethods/BranchSimplification.cpp" />
+		<Unit filename="src/Logic/ClassicalMethods/GraphSimplification.cpp" />
+		<Unit filename="src/Logic/ClassicalMethods/StraighteningMethods.cpp" />
+		<Unit filename="src/Logic/Clustering/ClusterElement.cpp" />
+		<Unit filename="src/Logic/Clustering/ClusterSort.cpp" />
+		<Unit filename="src/Logic/Clustering/ClusteringMethods.cpp" />
+		<Unit filename="src/Logic/Clustering/DescriptorCluster.cpp" />
+		<Unit filename="src/Logic/Computation.cpp" />
+		<Unit filename="src/Logic/CustomComplex/ComplexAlgorithms.cpp" />
+		<Unit filename="src/Logic/CustomComplex/EqualsComplex.cpp" />
+		<Unit filename="src/Logic/CustomComplex/HashComplex.cpp" />
+		<Unit filename="src/Logic/CustomComplex/HashForSimplex.cpp" />
+		<Unit filename="src/Logic/DataGeneration/CloudGenerator.cpp" />
+		<Unit filename="src/Logic/DataGeneration/GraphGeneration.cpp" />
+		<Unit filename="src/Logic/Geometrical Methods/AABBMethods.cpp" />
+		<Unit filename="src/Logic/Graph.cpp" />
+		<Unit filename="src/Logic/Homology/HomologyComputator.cpp" />
+		<Unit filename="src/Logic/InterfaceHandles/ClassicUIHandle.cpp" />
+		<Unit filename="src/Logic/InterfaceHandles/TestHandle.cpp" />
+		<Unit filename="src/Logic/Mapper/Mapper_Parameters.cpp" />
+		<Unit filename="src/Logic/PointTools.cpp" />
+		<Unit filename="src/Logic/UIHandler.cpp" />
+		<Unit filename="src/Logic/binomial_coeff_table.cpp" />
+		<Unit filename="src/ReadWrite/Filereader.cpp" />
+		<Unit filename="src/ReadWrite/Write.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

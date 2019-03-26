@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+<<<<<<< HEAD
+	<File name="include/Convertors/GeneralConvertor.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="512" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Methods/BranchDetection.h" open="1" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="767" topLine="0" />
+=======
+	<File name="include/Includes.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="58" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Graph/Graph.h" open="1" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1047" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="include/Methods/AMSTComputator.h" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="478" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="include/DataGeneration/CloudGenerator.h" open="1" top="1" tabpos="22" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="464" topLine="0" />
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		</Cursor>
+	</File>
+	<File name="include/DataGeneration/GraphGeneration.h" open="1" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="623" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/DensityFunctions/LinearDensity.cpp" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/DensityFunctions/ExponentialDensity.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="include/Methods/NaiveMethods.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="571" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Methods/TreeCreator.h" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="176" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/GradientDescend/SingleEdgeOptimizer.cpp" open="1" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1247" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="include/Clustering/ClusterElement.h" open="1" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/Amst/EpsilonClusterMST/EngineClusterMST.h" open="1" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14450" topLine="363" />
+=======
+	<File name="include/Rules/DensityEstimationRules.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2844" topLine="31" />
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		</Cursor>
+	</File>
+	<File name="include/Methods/NaiveMethods.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="571" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/GeneralComputation/PointTools.h" open="1" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Methods/AMSTComputator.h" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="478" topLine="92" />
+		</Cursor>
+	</File>
+	<File name="include/TestClasses/FunctionEvaluator.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+=======
+	<File name="include/Definitions/Definitions.h" open="0" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2595" topLine="35" />
+		</Cursor>
+	</File>
+	<File name="include/Amst/RulesRangeAMST.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="948" topLine="168" />
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		</Cursor>
+	</File>
+	<File name="include/GeneralComputation/PointTools.h" open="0" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/Amst/RulesRAMSTM.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4940" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="include/Amst/DualTreeAMST.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4001" topLine="53" />
+		</Cursor>
+	</File>
+	<File name="include/Amst/RulesAMST.h" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1094" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="include/DataGeneration/CloudGenerator.cpp" open="1" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="519" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="include/Graph/Graph.h" open="1" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1047" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="include/DensityFunctions/ExponentialDensity.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="208" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/GeneralComputation/PointTools.cpp" open="1" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="258" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Amst/AmstStat.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="330" topLine="0" />
+=======
+	<File name="include/Convertors/GeneralConvertor.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="204" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/DensityFunctions/ExponentialDensity.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="208" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Rules/KDEStats.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="159" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/GeneralComputation/PointTools.cpp" open="0" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="258" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Clustering/ClusterSort.h" open="1" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/DensityFunctions/ExponentialDensity.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Graph/Graph.cpp" open="1" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="581" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/DataGeneration/GraphGeneration.cpp" open="1" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1076" topLine="0" />
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		</Cursor>
+	</File>
+	<File name="include/Clustering/ClusterSort.cpp" open="1" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="336" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/Methods/NaiveMethods.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="70" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Amst/RulesRangeAMST.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="948" topLine="168" />
+=======
+	<File name="include/Amst/EpsilonClusterMST/EngineClusterMST.h" open="0" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9823" topLine="257" />
+		</Cursor>
+	</File>
+	<File name="include/Clustering/ClusterElement.cpp" open="1" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="283" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1197" topLine="237" />
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		</Cursor>
+	</File>
+	<File name="include/DensityFunctions/LinearDensity.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/Clustering/ClusteringMethods.h" open="1" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="648" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Convertors/GeneralConvertor.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1735" topLine="57" />
+=======
+	<File name="include/Methods/BranchDetection.h" open="0" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="767" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Methods/NaiveMethods.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="70" topLine="0" />
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		</Cursor>
+	</File>
+	<File name="include/TestClasses/TreeExperements.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/GradientDescend/SingleEdgeOptimizer.h" open="1" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="include/GradientDescend/SingleEdgeOptimizer.h" open="0" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		<Cursor>
+			<Cursor1 position="114" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/Amst/EpsilonClusterMST/EpsilonClusteringRules.h" open="1" top="0" tabpos="39" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="647" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="include/Methods/TestPerformer.h" open="1" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1701" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="include/GeneralComputation/Computation.h" open="1" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="979" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Rules/DensityComputator.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3183" topLine="63" />
+		</Cursor>
+	</File>
+	<File name="include/Definitions/Definitions.h" open="1" top="1" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1849" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="include/Graph/Graph.cpp" open="1" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="944" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/DensityFunctions/LinearDensity.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="include/Amst/RulesRAMSTM.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4940" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Convertors/GeneralConvertor.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1587" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/DataGeneration/GraphGeneration.h" open="1" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="623" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Amst/DualTreeAMST.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4001" topLine="53" />
+		</Cursor>
+	</File>
+	<File name="include/GeneralComputation/Computation.h" open="1" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="979" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/task2.cpp" open="1" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="181" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="include/task2.h" open="1" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		<Cursor>
+			<Cursor1 position="742" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/Clustering/ClusterElement.cpp" open="1" top="0" tabpos="40" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="include/TestClasses/FunctionEvaluator.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Methods/TestPerformer.h" open="0" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1701" topLine="28" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="include/Methods/TreeCreator.h" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="176" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/GradientDescend/SingleEdgeOptimizer.cpp" open="1" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2981" topLine="86" />
+		</Cursor>
+	</File>
+	<File name="include/DataGeneration/GraphGeneration.cpp" open="1" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+=======
+	<File name="include/Rules/DensityComputator.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3183" topLine="63" />
+		</Cursor>
+	</File>
+	<File name="include/Clustering/ClusteringMethods.h" open="1" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="648" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/DensityFunctions/LinearDensity.cpp" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		<Cursor>
+			<Cursor1 position="1076" topLine="0" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
+	<File name="main.cpp" open="1" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8382" topLine="231" />
+=======
+	<File name="include/Amst/EpsilonClusterMST/EpsilonClusteringRules.h" open="0" top="0" tabpos="39" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="141" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Clustering/ClusteringMethods.cpp" open="1" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="93" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Amst/AmstStat.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="330" topLine="0" />
+>>>>>>> 52368396580871a10e2e76b1ddec821684b8337e
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

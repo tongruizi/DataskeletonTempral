@@ -99,12 +99,12 @@ void MetricRec::Labeling(std::list<Point> & cloudlist, MyGraphType & out)
         }
 
     }
-    //Label all points within distance 2rfrom a preliminary branch point as branch points
+    //Label all points within distance 2tfrom a preliminary branch point as branch points
 
     std::unordered_map<int,double> debugmap;
     std::vector<std::vector<size_t> > resultingNeighbors2;
     std::vector<std::vector<double> > resultingDistances2;
-    mlpack::math::Range q(0,2*r);
+    mlpack::math::Range q(0,2*this->t);
     a.Search(q, resultingNeighbors2, resultingDistances2);
 
     for (int i = 0; i < resultingNeighbors2.size(); i++)

@@ -9,8 +9,8 @@
 class MetricRec : public AbstractAlgorithm
 {
     public:
-      MetricRec( double r):
-        r(r),AbstractAlgorithm("Metric Reconstruction algorithm") {}
+   MetricRec( double r, double t):
+        r(r),t(t),AbstractAlgorithm("Metric Reconstruction algorithm") {}
 
         //! The main method (we will cast list to vector later for convinience
         void Run(std::list<Point> & cloudlist,MyGraphType & out);
@@ -30,6 +30,7 @@ class MetricRec : public AbstractAlgorithm
 
     private:
     double r;
+    double t;
     //! Dont store runtime stuff in class:
 
 

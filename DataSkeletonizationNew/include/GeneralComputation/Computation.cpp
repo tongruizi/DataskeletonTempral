@@ -267,6 +267,10 @@ double Computation::AABBError(MyGraphType & G, std::list<Point> & cloud)
         Point p2 = G[boost::target(*eit,G)].p;
         segments.push_back(Segment(p1,p2));
     }
+     if (segments.size() == 0)
+    {
+    return 0;
+    }
     double maxdistance = 0;
     SegmentTree AABB(segments.begin(), segments.end());
     AABB.accelerate_distance_queries();
@@ -294,6 +298,10 @@ double Computation::MeanSquareErrorAABB(MyGraphType & G, std::list<Point> & clou
         Point p1 = G[boost::source(*eit,G)].p;
         Point p2 = G[boost::target(*eit,G)].p;
         segments.push_back(Segment(p1,p2));
+    }
+     if (segments.size() == 0)
+    {
+    return 0;
     }
     double sumdistance = 0;
     SegmentTree AABB(segments.begin(), segments.end());
